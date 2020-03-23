@@ -6,7 +6,6 @@ def divisible_by_ten(nums):
     return len(num_10)
 print(divisible_by_ten([20, 25, 30, 35, 40]))
 
-
 def add_greetings(names):
     greetings = []
     for name in names:
@@ -14,14 +13,10 @@ def add_greetings(names):
     return greetings
 print(add_greetings(["Owen", "Max", "Sophie"]))
 
-
 def add_greetings(names):
     return ["Hello, " + names[i] for i in range(len(names))]
 print(add_greetings(["Owen", "Max", "Sophie"]))
 
-
-#The function should remove elements from the front of lst until the front of the list is not even.
-#The function should then return lst.
 def delete_starting_evens(lst):
     i = 0
     while i % 2 == 1:
